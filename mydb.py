@@ -1,5 +1,6 @@
 import mysql.connector
 
+# User Your own User name and Password to connect with your Database
 dataBase = mysql.connector.connect(
     host = 'localhost',
     user = 'root',
